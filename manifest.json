@@ -1,0 +1,24 @@
+{
+  "name": "Genshin Check-In",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "genshincheckin@nat3z.com"
+    }
+  },
+  "icons": {
+    "128": "icons/primogem.png"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "notifications",
+    "scripting",
+    "https://act.hoyolab.com/",
+    "tabs"
+  ]
+}
